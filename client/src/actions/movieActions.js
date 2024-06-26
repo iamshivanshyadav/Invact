@@ -8,7 +8,7 @@ export const TOGGLE_WATCHED = 'TOGGLE_WATCHED';
 export const RATE_MOVIE = 'RATE_MOVIE';
 export const REVIEW_MOVIE = 'REVIEW_MOVIE';
 
-const apiUrl = 'http://localhost:5000/movies';
+const apiUrl = 'https://invact-backend-14xm.onrender.com/movies';
 
 export const getMovies = () => async dispatch => {
     const res = await axios.get(apiUrl);
